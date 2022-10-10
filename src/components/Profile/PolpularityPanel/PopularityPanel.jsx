@@ -14,7 +14,7 @@ const PopularityPanel = ({ stats }) => {
         </StatsItem>
         <StatsItem>
           <Label>Likes</Label>
-          <Quantity> {likes}</Quantity>
+        <Quantity> {likes}</Quantity>
         </StatsItem>
       </Stats>)
 }

@@ -8,4 +8,6 @@ export const AppEl = styled.div`
     font-size: 40;
     color: #010101;
     background-color: #dfe7ff;
+
+    
 `

@@ -4,8 +4,8 @@ export const DescriptionEl = styled.div`
     background-color: #ffffff;
     text-align: center;
     padding: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 `
 
 export const Avatar = styled.img`
