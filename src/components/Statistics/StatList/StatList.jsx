@@ -15,3 +15,11 @@ export const StatList = ({stats}) => {
     </StatListItem>)}
   </StatListStyle>)
 }
+
+StatList.prototype = {
+  stats: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired
+  }))
+}

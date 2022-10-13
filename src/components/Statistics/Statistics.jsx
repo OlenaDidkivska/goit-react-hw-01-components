@@ -10,3 +10,8 @@ const Statistics = ({ title, stats }) => {
 }
 
 export default Statistics
+
+Statistics.prototype = {
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(PropTypes.object)
+}

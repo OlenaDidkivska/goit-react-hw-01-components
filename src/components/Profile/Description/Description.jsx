@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { DescriptionEl, Avatar, Username, Tracking } from './Description.styled';
 
 const Description = ({username, tag, location, avatar}) => {
